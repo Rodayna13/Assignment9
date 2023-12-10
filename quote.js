@@ -1,4 +1,3 @@
-  // Array of quotes (you can fetch this dynamically from your source)
   const quotes = [
     {
         text: "Be yourself; everyone else is already taken.",
