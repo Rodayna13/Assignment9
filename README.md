@@ -1,2 +1,2 @@
 # Assignment9
-<h1>This second assignment in JS is a Random Quote Generator.</h1>
+<h5>This second assignment in JS is a Random Quote Generator.</h5>
