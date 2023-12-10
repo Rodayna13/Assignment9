@@ -1,0 +1,85 @@
+.blockquote {
+    padding: 60px 80px 40px;
+    position: relative;
+    text-align: center;
+}
+.blockquote h1
+{
+  font-size: 70px;
+  font-family: "Utopia-italic";
+  font-weight: 900px;
+    text-align: center;
+}
+.blockquote button
+{
+  font-family: "arial";
+  font-size: 35px;
+  font-weight: 700px;
+  text-align: center; 
+  background-color: #a10320;
+  color: #EDEDED;
+margin-top: 3%;
+border:solid #EDEDED;
+padding: 2%;
+  
+}
+.blockquote button:hover
+{
+  background-color: rgba(184, 184, 184, 0.411) ;
+  color:#a10320;
+  border:solid #a10320;
+  cursor:pointer;
+
+}
+.blockquote p {
+    font-family: "Utopia-italic";
+    font-size: 35px;
+    font-weight: 700px;
+    text-align: center;
+}
+
+
+.blockquote::after {
+    content: "";
+    top: 20px;
+    left: 45%;
+    margin-left: -100px;
+    position: absolute;
+    border-bottom: 3px solid #a10320;
+    height: 10px;
+    width: 400px;
+}
+
+.text-blockquote{
+  font-size: 1.4em;
+  width:60%;
+  margin:50px auto;
+  font-family:Open Sans;
+  font-style:italic;
+  color: #555555;
+  padding:1.2em 30px 1.2em 75px;
+  border-left:8px solid #a10320 ;
+  line-height:1.6;
+  position: relative;
+  background:#EDEDED;
+}
+
+.text-blockquote::before{
+  font-family:Arial;
+  content: "\201C";
+  color:#a10320;
+  font-size:4em;
+  position: absolute;
+  left: 10px;
+  top:-10px;
+}
+
+
+.text-blockquote span{
+  display:block;
+  color:#a10320;
+  font-style: normal;
+  font-weight: bold;
+  margin-top:1em;
+
+}
